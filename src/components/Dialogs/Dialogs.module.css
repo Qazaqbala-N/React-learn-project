@@ -1,7 +1,22 @@
-.header{
-    grid-area: h;
-    background-color: greenyellow;
-  }
-  .header img{
-    width: 20px;
-  }
+.dialogs{
+    display: grid;
+    grid-template-columns:2fr 10fr ;
+}
+
+.dialog{
+
+}
+.dialogsItems{
+    padding: 10px;
+    color: wheat;
+}
+.dialogsItems .active{
+    color: gold;
+}
+.messages{
+    padding: 10px;
+}
+
+.messages .message{
+    color:wheat;
+}
